@@ -1,37 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard 功能網站- Next-Dashboard
+此專案使用 Next.js 14 開發，主要有登入驗證、查看/新增/刪除使用者和產品資訊
+* [專案連結](https://next-dashboard-seven-gules.vercel.app/login)
 
-## Getting Started
 
-First, run the development server:
+# 專案功能-Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* 測試帳號 : admin
+* 測試密碼 : 123456
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 登入頁面
+* 成功登入會跳轉至 Dashboard
+* NextAuth 驗證登入帳號或密碼失敗會停留在登入頁面並給出錯誤訊息
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 使用者頁面
+* 可以查看/新增/刪除使用者
+* 有分頁功能
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 產品頁面
+* 可以查看/新增/刪除產品
+* 有分頁功能
 
-## Learn More
+### 登出
+* 按下登出後會返回登入頁面
 
-To learn more about Next.js, take a look at the following resources:
+# 環境建置-Environment SetUp
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Next.js](https://nextjs.org/)
+* [MongoDB](https://www.mongodb.com/)
+* [NextAuth.js](https://next-auth.js.org/)
+* [bcrypt.js](https://www.npmjs.com/package/bcrypt)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# 專案畫面-Screen Photo
+![dashboard-page](https://github.com/Ollieeryo/next-dashboard/blob/main/public/dashboard.png)
+![users-page](https://github.com/Ollieeryo/next-dashboard/blob/main/public/users.png)
+![user-page](https://github.com/Ollieeryo/next-dashboard/blob/main/public/singleUser.png)
+![products-page](https://github.com/Ollieeryo/next-dashboard/blob/main/public/products.png)
+![product-page](https://github.com/Ollieeryo/next-dashboard/blob/main/public/singleProduct.png)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# next-dashboard
+# 專案開發人員-Contributor
+> [Oliver Liao](https://github.com/Ollieeryo)
